@@ -19,11 +19,10 @@ class Program
         userInteger = Convert.ToInt32(Console.ReadLine());
 
         //Process
-        if (userInteger >= 0){
+        if (userInteger >= 0)
             Console.WriteLine("Integer is a positive number.");
-        }else{
+        else
             Console.WriteLine("Integer is a negative number.");
-        }
 
         Console.WriteLine("\nDone.");
     }
